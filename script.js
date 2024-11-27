@@ -13,7 +13,9 @@ const dropdownContents = document.querySelectorAll(".dropdown-content");
 
 for (let dropdown of dropdowns) {
   dropdown.firstElementChild.addEventListener("click", function () {
-    dropdown.lastElementChild.style.display = "block";
+     if (window.matchMedia("(max-width: 1300px)").matches) {
+      dropdown.lastElementChild.style.display = "block";
+    }
     let text = dropdown.lastElementChild;
     let child = text.firstElementChild;
     child.addEventListener("click", function () {
