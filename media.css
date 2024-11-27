@@ -118,6 +118,7 @@
         justify-content: space-between !important;
         position: absolute !important;
         top: 0;
+        margin-left:0px !important;
         padding-top: 80px;
         height: 100vh !important;
         width: 100% !important;
@@ -144,6 +145,7 @@
         left: 0;
         bottom: 24px;
         margin-left: 15px;
+        z-index:200;
     }
 
     .header__logo .image {
@@ -157,6 +159,9 @@
 
     nav .dropdown {
         width: 100%;
+    }
+    nav .nav__link-number {
+        display:none;
     }
 
     nav .dropdown:hover .image {
@@ -202,7 +207,7 @@
     nav .dropdown-content {
         display: none;
         position: absolute;
-        height: 50%;
+        height: 70%;
         background-color: #FFFFFF !important;
         min-width: 100%;
         border-radius: 0px !important;
