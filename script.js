@@ -40,6 +40,9 @@ function hambHandler(e) {
   e.preventDefault();
   hamb.classList.toggle("active");
   nav.classList.toggle("show");
+  for (let dropdownContent of dropdownContents) {
+    dropdownContent.style.display="none";
+  }
 }
 hamb.addEventListener("click", hambHandler);
 
