@@ -497,8 +497,8 @@
 
     /*---------------------MAIN-GALLERY-----------------------------*/
     .main__section:nth-child(3) {
-        min-height: 1350px !important;
-        max-height: 1400px;
+        min-height: 1150px !important;
+        max-height: 1300px;
         border-radius: 40px !important;
         margin-top: 50px !important;
         padding: 50px 16px !important;
@@ -592,7 +592,6 @@
         gap: 32px;
     }
 
-
     /*---------------------MAIN-TESTIMONIALS-----------------------------*/
     .main__section:nth-child(4) {
         padding: 50px 16px !important;
@@ -630,7 +629,7 @@
     .main__section:nth-child(4) .buttons .button:first-child:hover,
     .main__section:nth-child(4) .buttons .button:nth-child(2):hover {
         background-color: #DA7816;
-        border: none;
+        border: 0px solid black !important;
     }
 
     .main__section:nth-child(4) .buttons .button:nth-child(2) {
@@ -640,7 +639,7 @@
         border-radius: 72px;
         width: 72px;
         height: 72px;
-        border: 1px solid #5E5E5E !important;
+        border: 1px solid #5E5E5E ;
     }
 
     .main__section:nth-child(4) .main__inner:first-child {
@@ -674,6 +673,7 @@
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
+        align-items: center;
         flex-direction: column !important;
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -683,7 +683,7 @@
     .main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text {
         border-radius: 32px;
         padding: 40px 45px 58px 40px;
-        width: 343px !important;
+        width: 98% !important;
         height: 416px;
         background-color: #FAFAFA;
         color: #5E5E5E;
