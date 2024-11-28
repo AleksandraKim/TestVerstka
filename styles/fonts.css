@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Red Hat Display";
-    src: url("./fonts/RedHot/RedHatDisplay-VariableFont_wght.ttf");
+    src: url("../fonts/RedHot/RedHatDisplay-VariableFont_wght.ttf");
   }
 @font-face {
     font-family: "Manrope";
-    src: url("./fonts/Monro/Manrope-VariableFont_wght.ttf");
+    src: url("../fonts/Monro/Manrope-VariableFont_wght.ttf");
   }
