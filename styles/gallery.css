@@ -161,7 +161,7 @@
 }
 
 .main__section:nth-child(3) .main__inner:nth-child(3) .buttons .button:first-child {
-    background-image: url("./images/VectorLeft.svg");
+    background-image: url("../images/VectorLeft.svg");
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 72px;
@@ -177,7 +177,7 @@
 }
 
 .main__section:nth-child(3) .main__inner:nth-child(3) .buttons .button:nth-child(2) {
-    background-image: url("./images/VectorRight.svg");
+    background-image: url("../images/VectorRight.svg");
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 72px;
