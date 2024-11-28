@@ -131,7 +131,7 @@
 
     nav .header__button {
         display: block !important;
-        width: 98%;
+        width: 100%;
         height: 72px;
         padding: 24px 20px 24px 20px;
         border-radius: 72px;
@@ -143,14 +143,15 @@
         position: absolute;
         left: 0;
         bottom: 24px;
-        margin: 24px 15px;
         z-index:200;
+        margin-left: 0px !important;
     }
 
     .header__logo .image {
         width: 156px !important;
         height: 38px !important;
-        margin-left: 21px;
+        margin-left: 0px !important;
+        margin-top: 10px;
     }
 
     .nav__link {
@@ -232,15 +233,18 @@
     }
 
     nav .dropdown-content {
-        display: none;
+        display: none ;
         position: absolute;
-        height: 70%;
+        height: 100%;
         background-color: #FFFFFF !important;
         min-width: 100%;
         border-radius: 0px !important;
         padding: 0px;
         top: 80px !important;
         z-index: 100;
+    }
+    nav .dropdown-content.kick{
+        display: block !important;
     }
 
     nav .dropbtn:hover .dropdown-content {
@@ -581,7 +585,7 @@
     .main__section:nth-child(3) .main__inner:nth-child(2) .main__inner-image:nth-child(2) .text {
         width: 93px !important;
         height: 37px !important;
-        padding: 8px 24px 8px 24px !important;
+        padding: 8px 22px 8px 26px !important;
     }
 
     .main__section:nth-child(3) .main__inner:nth-child(3) {
@@ -1249,6 +1253,8 @@
         -webkit-box-pack: justify !important;
         -ms-flex-pack: justify !important;
         justify-content: space-between !important;
+        align-items: center;
+        align-self: center;
         position: absolute !important;
         top: 0;
         padding-top: 80px;
@@ -1257,6 +1263,7 @@
         background-color: #FFFFFF;
         z-index: -1;
         margin-left: 0px !important;
+        border:1px solid black;
     }
 
     .header nav.show {
@@ -1278,12 +1285,14 @@
         left: 0;
         bottom: 24px;
         margin: 24px 15px;
+        z-index: 200;
     }
 
     .header__logo .image {
         width: 156px !important;
         height: 38px !important;
         margin-left: 21px;
+        margin-top: 10px;
     }
 
     .nav__link {
@@ -1367,7 +1376,7 @@
     nav .dropdown-content {
         display: none;
         position: absolute;
-        height: 50%;
+        height: 100%;
         background-color: #FFFFFF !important;
         min-width: 100%;
         border-radius: 0px !important;
@@ -1375,7 +1384,9 @@
         top: 80px !important;
         z-index: 100;
     }
-
+    nav .dropdown-content.kick{
+        display: block !important;
+    }
     nav .dropbtn:hover .dropdown-content {
         display: none !important;
         z-index: 1;
@@ -1487,8 +1498,7 @@
 
     .main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text {
         margin: 0 auto;
-        max-width: 600px !important;
-        max-width: 300px !important;
+        max-width: 98% !important;
     }
 
     .main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text:nth-child(2),
