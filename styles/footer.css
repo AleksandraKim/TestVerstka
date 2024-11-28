@@ -1,0 +1,563 @@
+.footer {
+    width: 100%;
+    height: 514px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #342F28;
+    position: absolute;
+    padding: 150px 72px 32px 72px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    bottom: 0;
+    z-index: -1;
+}
+
+.footer .footer__inner:nth-child(1),
+.footer .footer__inner:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer .footer__inner:nth-child(1) .footer__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.footer .footer__inner:nth-child(1) .footer__text:nth-child(2) a {
+    font-family: "Manrope";
+    font-size: 16px !important;
+    font-weight: 500;
+    line-height: 24px !important;
+    text-align: left;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    -webkit-text-decoration-style: solid;
+    text-decoration-style: solid;
+    color: #DA7816;
+}
+
+.footer .footer__inner:nth-child(1) .footer__text .span:nth-child(1),
+.footer .footer__inner:nth-child(2) .footer__text .span:nth-child(1) {
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFBF4;
+}
+
+.footer .footer__inner:nth-child(1) .footer__text .span:nth-child(2) {
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFBF4;
+}
+
+.footer .footer__inner .footer__text .link {
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    -webkit-text-decoration-style: solid;
+    text-decoration-style: solid;
+    color: #DA7816;
+}
+
+.footer .footer__inner:nth-child(2) .footer__text:nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer .footer__inner:nth-child(2) .footer__text:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer .footer__inner:nth-child(2) .footer__text:nth-child(4)  .span{
+white-space: nowrap;
+}
+
+.footer .footer__inner:nth-child(2) .footer__text:nth-child(2) .image {
+    width: 236px;
+    height: 60px;
+}
+
+.footer .footer__inner:nth-child(3) span,
+.footer .footer__inner:nth-child(4) span {
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFBF4;
+}
+
+.footer .footer__inner:nth-child(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer .footer__inner:nth-child(4) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer .footer__inner:nth-child(4) .footer__text:first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: auto;
+}
+
+.footer .footer__inner:nth-child(4) .footer__text:nth-child(2) {
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.footer .footer__inner:nth-child(3) .footer__text .link,
+.footer .footer__inner:nth-child(4) .footer__text .link {
+    text-decoration: none;
+}
+
+.footer .footer__inner:nth-child(4) .footer__text:nth-child(2) .span span {
+    color: #DA7816;
+}
+
+.footer .footer__inner:nth-child(5) {
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+    display: none;
+}
+@media only screen and (max-width: 500px) {
+    .footer {
+        width: 100%;
+        height: 833px !important;
+        gap: 0px;
+        opacity: 0px;
+        background-color: #45280A;
+        position: absolute;
+        padding: 150px 16px 32px 16px !important;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+        -webkit-box-pack: justify !important;
+        justify-content: space-between !important;
+        bottom: 0 !important;
+        z-index: -1;
+    }
+
+    .footer .footer__inner:nth-child(1),
+    .footer .footer__inner:nth-child(2) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .footer .footer__inner:nth-child(1) .footer__text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        gap: 8px;
+
+    }
+
+    .footer .footer__inner:nth-child(1) .footer__text .span:nth-child(2) {
+        font-family: "Manrope";
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        line-height: 24px !important;
+        text-align: left;
+        color: #FFFBF4;
+    }
+
+    .footer .footer__inner:nth-child(1) .footer__text:nth-child(2) a {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+
+    .footer .footer__inner .footer__text .link {
+        font-family: "Manrope";
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        line-height: 24px !important;
+        text-align: left;
+        -webkit-text-decoration-line: underline;
+        text-decoration-line: underline;
+        -webkit-text-decoration-style: solid;
+        text-decoration-style: solid;
+        color: #DA7816;
+    }
+
+    .footer .footer__inner:nth-child(2) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-top: 24px;
+    }
+
+    .footer .footer__inner:nth-child(2) .footer__text:nth-child(1) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: flex !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 16px;
+        width: 104px;
+    }
+
+    .footer .footer__inner:nth-child(2) .footer__text:nth-child(1) .image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer .footer__inner:nth-child(2) .footer__text:nth-child(2) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: flex !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 250px;
+    }
+
+    .footer .footer__inner:nth-child(2) .footer__text:nth-child(4) {
+        display: none;
+    }
+
+    .footer .footer__inner:nth-child(2) .footer__text:nth-child(2) .image {
+        width: 167px !important;
+        height: 42px !important;
+    }
+
+    .footer .footer__inner:nth-child(3) span,
+    .footer .footer__inner:nth-child(4) span {
+        font-family: "Manrope";
+        font-size: 16px !important;
+        font-weight: 500;
+        line-height: 24px !important;
+        text-align: left;
+        color: #FFFBF4;
+    }
+
+    .footer .footer__inner:nth-child(3) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column !important;
+        -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        height: 80px;
+    }
+
+    .footer .footer__inner:nth-child(4) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: flex !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: flex-start !important;
+    }
+
+    .footer .footer__inner:nth-child(4) .footer__text:first-child {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: flex !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-left: auto;
+        width: 250px;
+    }
+
+    .footer .footer__inner:nth-child(4) .footer__text:nth-child(2) {
+        text-align: left !important;
+        white-space: nowrap;
+        display: none !important;
+    }
+
+    .footer .footer__inner:nth-child(5) {
+        display: block !important;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width: 1300px) {
+
+    .footer {
+        width: 100%;
+        height: 833px !important;
+        gap: 0px;
+        opacity: 0px;
+        background-color: #45280A;
+        position: absolute;
+        padding: 150px 16px 32px 16px !important;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+        -webkit-box-pack: justify !important;
+        justify-content: space-between !important;
+        bottom: 0 !important;
+        z-index: -1;
+        padding-right: 200px !important;
+    }
+
+    .footer .footer__inner:nth-child(1) .footer__text .span:nth-child(2) {
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        line-height: 24px !important;
+    }
+
+    .footer .footer__inner:nth-child(1) .footer__text:nth-child(2) a {
+        font-family: "Manrope";
+        font-size: 16px !important;
+        font-weight: 500;
+        line-height: 24px !important;
+        text-align: left;
+        -webkit-text-decoration-line: underline;
+        text-decoration-line: underline;
+        -webkit-text-decoration-style: solid;
+        text-decoration-style: solid;
+        color: #DA7816;
+    }
+
+    .footer .footer__inner .footer__text .link {
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        line-height: 24px !important;
+    }
+
+    .footer .footer__inner:nth-child(2) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-top: 24px;
+    }
+
+    .footer .footer__inner:nth-child(2) .footer__text:nth-child(1) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: flex !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 16px;
+        width: 104px;
+    }
+
+    .footer .footer__inner:nth-child(2) .footer__text:nth-child(1) .image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer .footer__inner:nth-child(2) .footer__text:nth-child(2) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: flex !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 250px;
+    }
+
+    .footer .footer__inner:nth-child(2) .footer__text:nth-child(4) {
+        display: none;
+    }
+
+    .footer .footer__inner:nth-child(2) .footer__text:nth-child(2) .image {
+        width: 167px !important;
+        height: 42px !important;
+    }
+
+    .footer .footer__inner:nth-child(3) span,
+    .footer .footer__inner:nth-child(4) span {
+        font-family: "Manrope";
+        font-size: 16px !important;
+        font-weight: 500;
+        line-height: 24px !important;
+        text-align: left;
+        color: #FFFBF4;
+    }
+
+    .footer .footer__inner:nth-child(3) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column !important;
+        -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        height: 80px;
+    }
+
+    .footer .footer__inner:nth-child(4) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: flex !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: flex-start !important;
+    }
+
+    .footer .footer__inner:nth-child(4) .footer__text:first-child {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: flex !important;
+        flex-direction: flex !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        width: 250px;
+    }
+
+    .footer .footer__inner:nth-child(4) .footer__text:nth-child(2) {
+        text-align: left !important;
+        white-space: nowrap;
+        display: none !important;
+    }
+
+    .footer .footer__inner:nth-child(5) {
+        display: block !important;
+    }
+}

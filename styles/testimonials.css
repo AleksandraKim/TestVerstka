@@ -1,0 +1,280 @@
+.main__section:nth-child(4) {
+    padding: 100px 72px;
+}
+
+.main__section:nth-child(4) .buttons {
+    display: none;
+}
+
+.main__section:nth-child(4) .main__inner:first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.main__section:nth-child(4) .main__inner:first-child .text:first-child {
+    font-family: "Red Hat Display";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    text-align: left;
+}
+
+.main__section:nth-child(4) .main__inner:first-child .text:nth-child(2) {
+    max-width: 700px;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #5E5E5E;
+}
+
+.main__section:nth-child(4) .main__inner:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text {
+    border-radius: 32px;
+    padding: 40px 45px 58px 40px;
+    width: 389px;
+    height: 416px;
+    background-color: #FAFAFA;
+    color: #5E5E5E;
+}
+
+.main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text .image {
+    margin-bottom: 32px;
+}
+
+.main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text .text:nth-child(2) {
+    margin-bottom: 24px;
+    font-family: "Red Hat Display";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+}
+
+.main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text .text:nth-child(3) {
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+@media only screen and (max-width: 500px) {
+    .main__section:nth-child(4) {
+        padding: 50px 16px !important;
+    }
+
+    .main__section:nth-child(4) .buttons {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex !important;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 158px;
+        margin-top: 32px;
+    }
+
+    .main__section:nth-child(4) .buttons .button:first-child {
+        background-image: none !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 72px;
+        width: 72px;
+        height: 72px;
+        border: 1px solid #5E5E5E !important;
+    }
+
+    .main__section:nth-child(4) .buttons .button:first-child .span {
+        color: #151515;
+    }
+
+    .main__section:nth-child(4) .buttons .button:first-child:hover,
+    .main__section:nth-child(4) .buttons .button:nth-child(2):hover {
+        background-color: #DA7816;
+        border: 0px solid black !important;
+    }
+
+    .main__section:nth-child(4) .buttons .button:nth-child(2) {
+        background-image: none !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 72px;
+        width: 72px;
+        height: 72px;
+        border: 1px solid #5E5E5E ;
+    }
+
+    .main__section:nth-child(4) .main__inner:first-child {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: column !important;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin-bottom: 40px;
+
+    }
+
+    .main__section:nth-child(4) .main__inner:first-child .text:first-child {
+        font-size: 32px !important;
+        max-width: 343px !important;
+    }
+
+    .main__section:nth-child(4) .main__inner:first-child .text:nth-child(2) {
+        font-size: 16px !important;
+    }
+
+    .main__section:nth-child(4) .main__inner:nth-child(2) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        align-items: center;
+        flex-direction: column !important;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text {
+        border-radius: 32px;
+        padding: 40px 45px 58px 40px;
+        width: 98% !important;
+        height: 416px;
+        background-color: #FAFAFA;
+        color: #5E5E5E;
+    }
+
+    .main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text:nth-child(2),
+    .main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text:nth-child(3) {
+        display: none;
+    }
+
+    .main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text .image {
+        margin-bottom: 32px;
+    }
+
+    .main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text .text:nth-child(2) {
+        font-size: 16px !important;
+    }
+}
+@media only screen and (min-width:500px) and (max-width: 1300px) {
+
+    .main__section:nth-child(4) {
+        padding: 50px 16px !important;
+    }
+
+    .main__section:nth-child(4) .buttons {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex !important;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 158px;
+        margin: 32px auto 0px auto;
+    }
+
+    .main__section:nth-child(4) .buttons .button:first-child {
+        background-image: none !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 72px;
+        width: 72px;
+        height: 72px;
+        border: 1px solid #5E5E5E !important;
+    }
+
+    .main__section:nth-child(4) .buttons .button:first-child .span {
+        color: #151515;
+    }
+
+    .main__section:nth-child(4) .buttons .button:first-child:hover,
+    .main__section:nth-child(4) .buttons .button:nth-child(2):hover {
+        background-color: #DA7816;
+        border: none;
+    }
+
+    .main__section:nth-child(4) .buttons .button:nth-child(2) {
+        background-image: none !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 72px;
+        width: 72px;
+        height: 72px;
+        border: 1px solid #5E5E5E !important;
+    }
+
+    .main__section:nth-child(4) .main__inner:first-child {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+    }
+
+    .main__section:nth-child(4) .main__inner:first-child .text:first-child {
+        font-family: "Red Hat Display";
+        font-size: 32px !important;
+        font-weight: 400;
+        line-height: 57px;
+        text-align: left;
+        max-width: 343px !important;
+    }
+
+    .main__section:nth-child(4) .main__inner:nth-child(2) {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+    }
+
+    .main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text {
+        margin: 0 auto;
+        max-width: 98% !important;
+    }
+
+    .main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text:nth-child(2),
+    .main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text:nth-child(3) {
+        display: none;
+    }
+
+    .main__section:nth-child(4) .main__inner:nth-child(2) .main__inner-text .text:nth-child(2) {
+        font-size: 16px !important;
+    }
+}

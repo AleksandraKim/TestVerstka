@@ -1,0 +1,309 @@
+.main__section:nth-child(3) {
+    position: relative;
+    background-color: #342F28;
+    min-height: 900px;
+    max-height: 1300px;
+    background-image: url('/images/brownBackgroundPart.webp');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 72px;
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 100px 74px;
+    gap: 40px;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(1) .main__inner-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(1) .main__inner-name {
+    font-family: "Red Hat Display";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    text-align: left;
+    color: #F6F3EC;
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(1) .main__inner-text .text {
+    text-align: left;
+    color: #F6F3EC;
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(1) .main__inner-text .button {
+    text-align: left;
+    width: 237px;
+    height: 72px;
+    padding: 24px 32px 24px 32px;
+    gap: 8px;
+    border-radius: 72px;
+    border: 1px solid #FFFFFF;
+    opacity: 0px;
+    color: #FFFFFF;
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(1) .main__inner-text .button:hover {
+    background-color: #FFFFFF;
+    color: #151515;
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(2) .main__inner-image {
+    position: relative;
+    width: 49%;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(2) .main__inner-image .image {
+    width: 100%;
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(2) .main__inner-image:nth-child(1) .text {
+    background-color: #F6F3EC;
+    width: 115px;
+    height: 56px;
+    top: 24px;
+    left: 24px;
+    padding: 16px 32px 16px 32px;
+    gap: 8px;
+    border-radius: 72px;
+    opacity: 0px;
+    position: absolute;
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(2) .main__inner-image:nth-child(2) .text {
+    background-color: #F6F3EC;
+    width: 103px;
+    height: 56px;
+    top: 24px;
+    left: 24px;
+    padding: 16px 32px 16px 32px;
+    gap: 8px;
+    border-radius: 72px;
+    opacity: 0px;
+    position: absolute;
+
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(3) .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 158px;
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(3) .buttons .button:first-child {
+    background-image: url("./images/VectorLeft.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 72px;
+    width: 72px;
+    height: 72px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(3) .buttons .button:first-child:hover,
+.main__section:nth-child(3) .main__inner:nth-child(3) .buttons .button:nth-child(2):hover {
+    background-color: #DA7816;
+    border: none;
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(3) .buttons .button:nth-child(2) {
+    background-image: url("./images/VectorRight.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 72px;
+    width: 72px;
+    height: 72px;
+    border: 1px solid #FFFFFF;
+}
+
+.main__section:nth-child(3) .main__inner:nth-child(3) .link {
+    color: #F6F3EC;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    -webkit-text-decoration-style: solid;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
+}
+@media only screen and (max-width: 500px) {
+    .main__section:nth-child(3) {
+        min-height: 1150px !important;
+        max-height: 1300px;
+        border-radius: 40px !important;
+        margin-top: 50px !important;
+        padding: 50px 16px !important;
+    }
+
+    .main__section:nth-child(3) .main__inner:nth-child(1) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: column !important;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .main__section:nth-child(3) .main__inner:nth-child(1) .main__inner-text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .main__section:nth-child(3) .main__inner:nth-child(1) .main__inner-name {
+        font-family: "Red Hat Display";
+        font-size: 32px !important;
+        font-weight: 400;
+        line-height: 57.6px;
+        text-align: left;
+        color: #F6F3EC;
+    }
+
+    .main__section:nth-child(3) .main__inner:nth-child(1) .main__inner-text .text {
+        text-align: left;
+        color: #F6F3EC;
+    }
+
+    .main__section:nth-child(3) .main__inner:nth-child(1) .main__inner-text .button {
+        width: 209px !important;
+        height: 64px !important;
+        font-size: 16px !important;
+        padding: 20px 32px 20px 32px !important;
+    }
+
+    .main__section:nth-child(3) .main__inner:nth-child(2) {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+        gap:8px;
+    }
+
+    .main__section:nth-child(3) .main__inner:nth-child(2) .main__inner-image {
+        position: relative;
+        width: 100% !important;
+        font-family: "Manrope";
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .main__section:nth-child(3) .main__inner:nth-child(2) .main__inner-image .image {
+        width: 100%;
+    }
+
+
+    .main__section:nth-child(3) .main__inner:nth-child(2) .main__inner-image:nth-child(1) .text {
+        width: 93px !important;
+        height: 37px !important;
+        padding: 8px 24px 8px 24px !important;
+    }
+
+    .main__section:nth-child(3) .main__inner:nth-child(2) .main__inner-image:nth-child(2) .text {
+        width: 93px !important;
+        height: 37px !important;
+        padding: 8px 22px 8px 26px !important;
+    }
+
+    .main__section:nth-child(3) .main__inner:nth-child(3) {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+        gap: 32px;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width: 1300px) {
+
+    .main__section:nth-child(3) .main__inner:nth-child(1) {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+        gap: 16px;
+    }}

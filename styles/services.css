@@ -1,0 +1,245 @@
+.main__section:nth-child(2) {
+    min-height: 1729px;
+    background-color: #F6F3EC;
+    border-radius: 72px;
+}
+
+.main__section-name {
+    font-family: "Red Hat Display";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57px;
+    text-align: center;
+    margin-top: 95px;
+}
+
+.main__section:nth-child(2) .main__inner {
+    min-height: 466px;
+    max-height: 600px;
+    border-radius: 32px;
+    background-color: #FFFFFF;
+    margin: 40px 72px 16px 72px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.main__section:nth-child(2) .main__inner .image {
+    max-width: 612px;
+    min-width: 50%;
+    min-height: 418px;
+    top: 1045px;
+    left: 96px;
+    gap: 0px;
+    border-radius: 32px;
+    opacity: 0px;
+}
+
+.main__section:nth-child(2) .main__inner-text {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    gap: 16px;
+    margin-left: 72px;
+}
+
+.main__section:nth-child(2) .main__inner:nth-child(3) .main__inner-text {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    gap: 16px;
+    margin-right: 107px;
+}
+
+.main__section:nth-child(2) .main__inner-text .text:first-child {
+    font-family: "Red Hat Display";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #5E5E5E;
+}
+
+.main__section:nth-child(2) .main__inner-text .text:nth-child(2) {
+    font-family: "Red Hat Display";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+}
+
+.main__section:nth-child(2) .main__inner-text .text:nth-child(3) {
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #5E5E5E;
+}
+
+.main__section:nth-child(2) .main__inner-text .text:nth-child(4) {
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #5E5E5E;
+}
+
+.main__section:nth-child(2) .main__inner-text .button {
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    width: 150px;
+    height: 72px;
+    padding: 24px 32px 24px 32px;
+    gap: 8px;
+    border-radius: 72px;
+    border: 1px solid #45280A;
+    opacity: 0px;
+    margin-top: 2%;
+}
+
+.main__section:nth-child(2) .main__inner-text .button:hover {
+    background-color: #F37021;
+    border: none;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 500px) {
+    .main__section:nth-child(2) {
+        min-height: 2000px !important;
+        max-height: 2237px !important;
+        background-color: #F6F3EC;
+        border-radius: 40px !important;
+    }
+
+    .main__section-name {
+        font-family: "Red Hat Display";
+        font-size: 32px !important;
+        font-weight: 400;
+        line-height: 57px;
+        text-align: center;
+        margin-top: 50px !important;
+    }
+
+    .main__section:nth-child(2) .main__inner {
+        min-height: 610px !important;
+        max-height: 750px !important;
+        border-radius: 16px !important;
+        background-color: #FFFFFF;
+        margin: 16px !important;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: column !important;
+        gap: 24px !important;
+        -ms-flex-pack: distribute;
+        -webkit-box-pack: start !important;
+        justify-content: flex-start !important;
+        padding: 16px !important;
+    }
+
+    .main__section:nth-child(2) .main__inner:nth-child(3) {
+        min-height: 610px !important;
+        max-height: 729px !important;
+        border-radius: 16px !important;
+        background-color: #FFFFFF;
+        margin: 16px !important;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: column-reverse !important;
+        gap: 24px !important;
+        -ms-flex-pack: distribute;
+        -webkit-box-pack: start !important;
+        justify-content: flex-start !important;
+        padding: 16px !important;
+    }
+
+    .main__section:nth-child(2) .main__inner .image {
+        max-width: 612px;
+        min-width: 50%;
+        min-height: 210px !important;
+        max-height: 210px !important;
+    }
+
+    .main__section:nth-child(2) .main__inner-text {
+        gap: 12px !important;
+        margin-left: 0px !important;
+
+    }
+
+    .main__section:nth-child(2) .main__inner:nth-child(3) .main__inner-text {
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        gap: 16px;
+        margin-right: 0px !important;
+    }
+
+    .main__section:nth-child(2) .main__inner-text .text:first-child {
+        font-size: 18px !important;
+    }
+
+    .main__section:nth-child(2) .main__inner-text .text:nth-child(2) {
+        font-size: 28px !important;
+    }
+
+    .main__section:nth-child(2) .main__inner-text .text:nth-child(4) {
+        padding-right: 20px;
+    }
+
+    .main__section:nth-child(2) .main__inner-text .button {
+        height: 64px !important;
+        padding: 20px 32px 20px 32px !important;
+    }
+
+    .main__section:nth-child(2) .main__inner-text .button:hover {
+        background-color: #DA7816;
+        border: none;
+        color: #FFFFFF;
+    }
+}
+@media only screen and (min-width:500px) and (max-width: 1300px) {
+    .main__section:nth-child(2) .main__inner {
+        margin: 40px 10px 16px 10px !important;
+    }
+
+    .main__section:nth-child(2) .main__inner-text {
+        margin-left: 16px !important;
+    }
+
+    .main__section:nth-child(2) .main__inner:nth-child(3) .main__inner-text {
+        margin-right: 16px !important;
+    }}
