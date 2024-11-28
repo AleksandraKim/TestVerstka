@@ -13,17 +13,27 @@ const dropdownContents = document.querySelectorAll(".dropdown-content");
 
 for (let dropdown of dropdowns) {
   dropdown.firstElementChild.addEventListener("click", function () {
-     if (window.matchMedia("(max-width: 1300px)").matches) {
-      dropdown.lastElementChild.style.display = "block";
+    if (window.matchMedia("(max-width: 1300px)").matches) {
+      dropdown.lastElementChild.classList.add("kick");
     }
     let text = dropdown.lastElementChild;
     let child = text.firstElementChild;
     child.addEventListener("click", function () {
-      text.style.display = "none";
-      console.log('none')
+      text.classList.remove("kick");
+      console.log(child)
     })
   })
 }
+
+window.addEventListener("resize",function(){
+  if (window.matchMedia("(min-width: 1300px)").matches) {
+    nav.classList.remove("show");
+}else if(window.matchMedia("(max-width: 1300px)").matches){
+  hamb.classList.remove("active");
+  for (let dropdown of dropdowns) {
+        dropdown.lastElementChild.classList.remove("kick");
+  }}
+})
 
 for (let dropdownContent of dropdownContents) {
   let a = document.createElement('a');
@@ -31,8 +41,7 @@ for (let dropdownContent of dropdownContents) {
   a.style.fontWeight = "600";
   dropdownContent.prepend(a);
   a.addEventListener("click", function () {
-    dropdownContent.style.display = "none";
-    console.log('none')
+    dropdownContent.classList.remove("kick");
   })
 }
 
@@ -40,9 +49,6 @@ function hambHandler(e) {
   e.preventDefault();
   hamb.classList.toggle("active");
   nav.classList.toggle("show");
-  for (let dropdownContent of dropdownContents) {
-    dropdownContent.style.display="none";
-  }
 }
 hamb.addEventListener("click", hambHandler);
 
