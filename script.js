@@ -49,6 +49,9 @@ function hambHandler(e) {
   e.preventDefault();
   hamb.classList.toggle("active");
   nav.classList.toggle("show");
+  for (let dropdownContent of dropdownContents) {
+    dropdownContent.classList.remove("kick");
+  }
 }
 hamb.addEventListener("click", hambHandler);
 
